@@ -6,6 +6,8 @@ struct treeNode {
     struct treeNode *right;
 };
 
+// Function definitions
+
 void preorder(struct treeNode* root, int* result, int* index) {
     if (root == NULL)
         return;
